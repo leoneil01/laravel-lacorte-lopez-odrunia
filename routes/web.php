@@ -21,7 +21,3 @@ Route::get('/edit', function () {
 Route::get('/delete', function () {
     return view('user.delete');
 });
-
-Route::get('/index', function () {
-    return view('user.index');
-});
