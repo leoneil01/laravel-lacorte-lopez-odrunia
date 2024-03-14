@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    {{-- @include('include.sidenav') --}}
+    @include('include.sidenav')
 
     <div class="page">
         @yield('content')
