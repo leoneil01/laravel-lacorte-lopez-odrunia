@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-<form class="create-form-list">
+<div class="content">
 	<table class="table">
 		<thead>
 			<tr>
@@ -21,6 +21,6 @@
 			
 		</tbody>
 	</table>
-</form>
+</div>
 
 @endsection
