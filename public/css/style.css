@@ -5,6 +5,7 @@
     background-color: rgba(20, 20, 20, .5);
     backdrop-filter: blur(5px);
     padding: 15px;
+    top: 0px;
 }
 
 .sidebar .user {
@@ -54,22 +55,12 @@
     align-self: center;
 }
 
-.create-form {
+.content {
     background-color: white;
     border-radius: 15px;
     padding: 20px;
-    margin: auto;
+    margin: 20px auto 20px;
     width: 50%;
-    border: 1px solid #000;
-}
-
-.create-form-list {
-    background-color: white;
-    border-radius: 15px;
-    padding: 20px;
-    margin: auto;
-    width: 75%;
-    border: 1px solid #000;
 }
 
 .form-title{
