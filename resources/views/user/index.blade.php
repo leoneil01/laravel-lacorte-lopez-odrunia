@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-<div class="content">
+<div class="content-list">
 	<table class="table">
 		<thead>
 			<tr>
@@ -18,6 +18,17 @@
 		<tbody>
 
 			{{-- Database Data Here --}}
+
+			<tr>
+				<th scope="col">1</th>
+				<th scope="col">Juan</th>
+				<th scope="col">Santos</th>
+				<th scope="col">Dela Cruz</th>
+				<th scope="col">22</th>
+				<th scope="col">March 2, 2002</th>
+				<th scope="col"></th>
+				<th scope="col"></th>
+			</tr>
 			
 		</tbody>
 	</table>
