@@ -38,8 +38,8 @@
         <label for="email_address" class="form-label">Email Address:</label>
         <input type="email" class="form-control" name="email_address" id="email_address">
 
-        <button class="submit-btn-cancel" type="submit">Cancel</button>
-        <button class="submit-btn" type="submit">Submit</button>
+        <a href="/users" class="submit-btn-cancel">Go Back</a>
+        <button class="submit-btn" type="submit">Save</button>
     </form>
 </div>
 
