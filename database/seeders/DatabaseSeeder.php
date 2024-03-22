@@ -27,5 +27,6 @@ class DatabaseSeeder extends Seeder
             'gender' => 'Female'
         ]);
 
+        \App\Models\User::factory()->create(100);
     }
 }
