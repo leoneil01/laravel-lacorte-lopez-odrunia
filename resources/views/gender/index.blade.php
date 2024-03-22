@@ -3,24 +3,24 @@
 
 <div class="content-list">
 	<table class="table">
+		<h5>List of Gender</h5>
 		<thead>
 			<tr>
-				<th scope="col">Id</th>
-				<th scope="col">First Name</th>
-				<th scope="col">Middle Name</th>
-				<th scope="col">Last Name</th>
-				<th scope="col">Age</th>
-				<th scope="col">Birthdate</th>
+				<th scope="col">Gender</th>
 				<th scope="col">Date Created</th>
-				<th scope="col">Date Upload</th>
+				<th scope="col">Date Updated</th>
 			</tr>
 		</thead>
 		<tbody>
 
 			{{-- Database Data Here --}}
 
-			@foreach ($users as $item)
-					
+			@foreach ($genders as $gender)
+				<tr>
+					<td>{{ $gender->gender }}</td>
+					<td>{{ $gender->created_at}}</td>
+					<td>{{ $gender->updated_at}}</td>
+				</tr>
 			@endforeach
 			
 		</tbody>
