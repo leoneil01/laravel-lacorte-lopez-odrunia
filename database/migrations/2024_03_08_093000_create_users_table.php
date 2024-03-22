@@ -22,7 +22,7 @@ return new class extends Migration
             $table->date('birth_date');
             $table->unsignedBigInteger('gender_id');
             $table->string('address', 55);
-            $table->string('contract_number', 55);
+            $table->string('contact_number', 55);
             $table->string('email_address', 55);
             $table->string('username', 55);
             $table->string('password', 255);

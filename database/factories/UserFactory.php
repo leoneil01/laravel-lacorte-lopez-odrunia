@@ -25,10 +25,10 @@ class UserFactory extends Factory
     {
         return [
             'first_name' => fake()->firstname(),
-            'middle_name',
+            'middle_name' => fake()->lastName(),
             'last_name' => fake()->lastname(),
             'suffix_name' => fake()->suffix(),
-            'birth_day' => fake()->date(),
+            'birth_date' => fake()->date(),
             'gender_id' => fake()->numberBetween($min = 1, $max = 2),
             'address' => fake()->streetAddress(),
             'contact_number' => fake()->phoneNumber(),

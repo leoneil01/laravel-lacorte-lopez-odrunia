@@ -27,6 +27,20 @@ class DatabaseSeeder extends Seeder
             'gender' => 'Female'
         ]);
 
-        \App\Models\User::factory()->create(100);
+        \App\Models\User::factory(100)->create();
+
+        // \App\Models\User::factory()->create([
+        //     'first_name' => 'Leoneil',
+        //     'middle_name' => 'Saladar',
+        //     'last_name' => 'Odrunia',
+        //     'suffix_name' => null,
+        //     'birth_day' => 'fake()->date()',
+        //     'gender_id' => fake()->numberBetween($min = 1, $max = 2),
+        //     'address' => fake()->streetAddress(),
+        //     'contact_number' => fake()->phoneNumber(),
+        //     'email_address' => fake()->safeEmail(),
+        //     'username' => fake()->userName(),
+        //     'password' => bcrypt('123')
+        // ]);
     }
 }
