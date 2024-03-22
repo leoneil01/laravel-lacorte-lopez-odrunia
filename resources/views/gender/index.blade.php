@@ -3,6 +3,7 @@
 
 <div class="content-list">
 	<table class="table">
+		@include('include.messages')
 		<h5>List of Gender</h5>
 		<thead>
 			<tr>
@@ -25,6 +26,7 @@
 			
 		</tbody>
 	</table>
+	<a class="submit-btn" href="/gender/create">Add</a>
 </div>
 
 @endsection

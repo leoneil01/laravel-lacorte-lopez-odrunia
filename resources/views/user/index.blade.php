@@ -19,7 +19,7 @@
 
 			{{-- Database Data Here --}}
 
-			@foreach ($users as $item)
+			@foreach ($users as $user)
 					
 			@endforeach
 			

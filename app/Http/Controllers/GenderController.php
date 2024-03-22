@@ -31,11 +31,17 @@ class GenderController extends Controller
     }
 
     public function create() {
-
+        return view('gender.create');
     }
 
-    public function store() {
+    public function store(Request $request) {
+        $validated = $request->validate([
+            'gender' => ['required']
+        ]);
 
+        Gender::create($validated); // INSERT INTO genders(gender) VALUES();
+
+        return redirect('/genders')->with('message_success', 'Gender successfully saved.');
     }
 
     public function edit() {
